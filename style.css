@@ -77,10 +77,11 @@ p, h2, a{
     font-family: var(--fuentePrincipal);
 }
 
-.enlace.seleccionado{
+.enlace.seleccionado, .enlace:hover{
     font-weight: 700;
     padding-bottom: .8rem;
     border-bottom: 1px solid white;
+    transition: .3s;
 }
 
 .enlace:last-of-type{
