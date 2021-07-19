@@ -95,14 +95,14 @@ p, h2, a{
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 @media (min-width: 768px){
     .portada{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        /* column-gap: 10rem; */
+        column-gap: 10rem;
     }
 }
 
@@ -132,7 +132,8 @@ p, h2, a{
     font-size: 1.4rem;
     font-family: var(--fuentePrincipal);
     font-weight: 400;
-    width: 60%;
+    /* width: 60%; */
+    margin: 0;
 }
 
 @media (min-width: 768px){
@@ -167,36 +168,43 @@ p, h2, a{
 
 @media (min-width: 768px){
     .tarjeta{
-        width: 55%;
-        height: 30%;
+        width: 45%;
+        height: 35%;
         /* height: auto; */
 
-        top: 65%;
-        left: 42%;
+        top: 70%;
+        left: 48%;
     }
 }
 
-@media (min-width: 928px){
+ @media (min-width: 928px){
     .tarjeta{
-        width: 45%;
-        /* height: 31%; */
+        /* width: 45%;
+        height: 31%;
         height: auto;
 
         top: 75%;
-        left: 53%;
-    }
-}
-
-@media (min-width: 1280px){
-    .tarjeta{
+        left: 53%; */
+        
         width: 45%;
-        /* height: 30%; */
+        height: 30%;
         height: auto;
 
         top: 90%;
         left: 52%;
     }
 }
+
+/* @media (min-width: 1280px){
+    .tarjeta{
+        width: 45%;
+        height: 30%;
+        height: auto;
+
+        top: 90%;
+        left: 52%;
+    }
+} */
 
 .autor__imagen{
     width: 6.5rem;
@@ -235,7 +243,7 @@ p, h2, a{
     font-size: 1.8rem;
 }
 
-@media (min-width: 768px){
+@media (min-width: 929px){
     .by{
         font-size: 2.4rem;
     }
@@ -249,8 +257,6 @@ p, h2, a{
     font-size: 1.5rem;
     text-align: center;
 }
-
-
 
 @media (min-width: 768px){
     .footer{
