@@ -16,6 +16,8 @@
       href="https://devchallenges.io/"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <!-- Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,58 +39,74 @@
       <div class="barra">
 
         <a href="#" class="logo">This interior</a>
-  
-        <nav class="menu">
+        
+        <div class="toggle" id="toggleBtn">
+          <span class="toggle__btn fas fa-bars"></span>
+        </div>
+
+        <!-- <div class="toggle" id="toggleBtn">
+          <i class="toggle__btn fas fa-bars"></i>
+        </div> -->
+
+        <nav class="menu" id="navMenu">
           <a class="enlace seleccionado" href="#">Home</a>
           <a class="enlace" href="#">Collection</a>
           <a class="enlace" href="#">About</a>
           <a class="enlace" href="#">Contact</a>
         </nav>
 
-      </div>
-
-      <div class="portada">
-
-        <div class="texto">
-          <h2 class="titulo">Modern interior</h2>
-          <p class="descripcion">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
-          <a class="enlace mas" href="#">Read more <span class="flecha">&#8594;</span> </a>
-        </div>
-
-        <div class="imagen">
-          <img src="photo1.png" alt="Foto portada">
-
-          <div class="tarjeta">
-
-            <div class="autor">
-
-              <div>
-                <img  class="autor__imagen"src="photo2.png" alt="Imagen autor">
-              </div>
-
-              <div >
-                <p class="autor__nombre">Aliza Webber</p>
-                <p class="autor__puesto">Interior designer</p>
-              </div>
-
-            </div>  <!-- .autor -->
-
-            <div>
-              <h2 class="by">Designed in 2020 by Aliza Webber</h2>
-            </div>
-
-          </div>  <!-- .tarjeta -->
-
-        </div>  <!-- .imagen -->
 
       </div>
+
+
 
     </header>
 
+
+    <main class="contenedor">
+        <div class="portada">
+
+          <div class="texto">
+            <h2 class="titulo">Modern interior</h2>
+            <p class="descripcion">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+            <a class="enlace mas" href="#">Read more <span class="flecha">&#8594;</span> </a>
+          </div>
+
+          <div class="imagen">
+            <img src="photo1.png" alt="Foto portada">
+
+            <div class="tarjeta">
+
+              <div class="autor">
+
+                <div>
+                  <img  class="autor__imagen"src="photo2.png" alt="Imagen autor">
+                </div>
+
+                <div >
+                  <p class="autor__nombre">Aliza Webber</p>
+                  <p class="autor__puesto">Interior designer</p>
+                </div>
+
+              </div>  
+
+              <div>
+                <h2 class="by">Designed in 2020 by Aliza Webber</h2>
+              </div>
+
+            </div>  
+
+          </div>  
+
+      </div>  
+    </main>
 
     <footer class="footer contenedor">
       <p>Created by <span class="nombre"> Agner Alexis Plascencia Amador </span> - <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">devChallenges.io</a> </p>
     </footer>
 
   </body>
+
+  <script src="app.js"></script>
+
 </html>
